@@ -1,0 +1,9 @@
+.into-section {
+        display: flex;
+        flex-direction: row;
+}
+
+.content-sections {
+        /* display: flex; */
+        flex: 1;
+}
