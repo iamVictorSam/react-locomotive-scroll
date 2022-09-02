@@ -1,9 +1,16 @@
-.into-section {
+.intro-section {
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
 }
 
-.content-sections {
+.intro-title {
+        /* display: flex; */
+        flex: 1;
+}
+
+.intro-image {
         /* display: flex; */
         flex: 1;
 }

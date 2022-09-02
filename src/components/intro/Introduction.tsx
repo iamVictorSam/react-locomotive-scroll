@@ -4,12 +4,12 @@ import './intro-style.css';
 const Introduction = () => {
   return (
     <div className='intro-section'>
-      <section className='content-sections'>
+      <section className='intro-title'>
         I am Sam Victor
         <br />A Frontend Engineer and Technical writer with a deep focus on
         creating pitch-perfect designs
       </section>
-        <section className='content-sections'>
+        <section className='intro-image'>
                 <img src={image}/>
                 
         </section>
