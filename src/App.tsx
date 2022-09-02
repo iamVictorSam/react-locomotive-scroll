@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import './App.css'
 import Introduction from './components/intro/Introduction';
 import About from './components/about/About';
-import footer from './components/footer/footer';
+import Footer from './components/footer/footer';
 
 function App() {
 
@@ -11,7 +10,7 @@ function App() {
     <div className="">
       <Introduction/>
       <About/>
-      <footer/>
+      <Footer/>
     </div>
   )
 }

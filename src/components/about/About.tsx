@@ -1,8 +1,11 @@
-import React from 'react'
+import './about-style.css'
 
 const About = () => {
   return (
-    <div>About</div>
+    <section className="about-section">
+
+      <div>About</div>
+    </section>
   )
 }
 
